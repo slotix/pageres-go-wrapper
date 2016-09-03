@@ -2,6 +2,6 @@ language: go
 go:
   - 1.5
   - 1.6
-  - tip
+
 before_install:
   - npm install --global pageres-cli
