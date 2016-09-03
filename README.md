@@ -1,7 +1,7 @@
 Pageres Go Wrapper
 ----------
-[![Build Status](https://travis-ci.org/slotix/slugifyurl.svg?branch=master)](https://travis-ci.org/slotix/slugifyurl)
-[![Go Report Card](https://goreportcard.com/badge/github.com/slotix/slugifyurl)](https://goreportcard.com/report/github.com/slotix/slugifyurl)
+[![Build Status](https://api.travis-ci.org/slotix/pageres-go-wrapper.svg?branch=master)](https://travis-ci.org/slotix/pageres-go-wrapper)
+[![Go Report Card](https://goreportcard.com/badge/github.com/slotix/pageres-go-wrapper)](https://goreportcard.com/report/github.com/slotix/pageres-go-wrapper)
 
 Golang package for capturing screenshots of websites in various resolutions. 
 It uses Pageres https://github.com/sindresorhus/pageres-cli internally.  
