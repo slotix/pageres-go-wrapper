@@ -8,13 +8,13 @@ import (
 
 func TestGetSShot(t *testing.T) {
 	shotsDir := "shots"
-    os.Mkdir(shotsDir, 0777)
+	os.Mkdir(shotsDir, 0777)
 	params := Parameters{
-		Command: "pageres",
-		Sizes:   "1024x768",
-		Crop:    "--crop",
-		Scale:   "--scale 0.9",
-		Timeout: "--timeout 30",
+		Command:   "pageres",
+		Sizes:     "1024x768",
+		Crop:      "--crop",
+		Scale:     "--scale 0.9",
+		Timeout:   "--timeout 30",
 		Filename:  fmt.Sprintf(`--filename=%s/<%%= url %%>`, shotsDir),
 		UserAgent: "",
 	}
