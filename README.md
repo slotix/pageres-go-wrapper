@@ -28,7 +28,7 @@ import (
 func main() {
     shotsDir := "shots"
     os.Mkdir(shotsDir, 0777)
-	params := Parameters{
+	params := sshot.Parameters{
 		Command: "pageres",
 		Sizes:   "1024x768",
 		Crop:    "--crop",
